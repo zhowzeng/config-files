@@ -1,0 +1,11 @@
+[user]
+	email = zenglihao106@gmail.com
+	name = lhzeng
+[core]
+	editor = vim
+[alias]
+	ci = commit -v
+	co = checkout
+	br = branch
+	st = status -s
+	l = log --pretty='%C(Yellow)%h%C(reset) %C(Cyan)%ad%C(reset) %C(Green)%an%C(reset)%C(auto)%d%C(reset) %s' --date=short --graph
