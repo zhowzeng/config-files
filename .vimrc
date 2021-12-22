@@ -27,6 +27,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'dense-analysis/ale'
 Plugin 'evanleck/vim-svelte'
+Plugin 'uarun/vim-protobuf'
 call vundle#end()
 filetype plugin indent on
 
@@ -87,6 +88,7 @@ autocmd FileType html,css,javascript,ls,vue,svelte setlocal expandtab shiftwidth
 autocmd FileType javascript setlocal filetype=javascript.jsx
 autocmd FileType javascript.jsx setlocal autoindent
 autocmd FileType pug,sass,styl setlocal expandtab shiftwidth=2 softtabstop=2
+autocmd FileType proto setlocal expandtab shiftwidth=2 softtabstop=2
 autocmd FileType json setlocal expandtab shiftwidth=2 softtabstop=2
 autocmd FileType perl,python,java setlocal expandtab shiftwidth=4
 autocmd FileType yaml,yml setlocal expandtab shiftwidth=2 softtabstop=2
