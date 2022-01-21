@@ -92,6 +92,7 @@ alias mv='mv -i'
 alias rm='_rm'
 alias rrm='/bin/rm -i'	# real rm
 alias vi='vim'
+alias tmux="TERM=screen-256color-bce tmux"
 alias tx='tmux attach'
 alias ..='cd ..'
 alias ...='cd ../../'
