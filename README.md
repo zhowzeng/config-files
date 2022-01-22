@@ -1,4 +1,4 @@
-# dev-cfg
+# config-files
 ## bash
 ## git
 ## vim
