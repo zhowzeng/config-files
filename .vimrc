@@ -55,7 +55,8 @@ autocmd VimEnter * if argc()==0 && !exists("s:std_in") | NERDTree | endif
 " ====================
 syntax on
 set t_Co=256
-colorscheme codedark  " monokai
+colorscheme everforest
+set background=dark
 
 " ====================
 " Appearance
