@@ -1,0 +1,24 @@
+
+{
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.saturation": 0.5,
+    "editor.formatOnSave": true,
+    "vim.useSystemClipboard": true,
+    "prettier.trailingComma": "all",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "100",
+        "--skip-string-normalization"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
